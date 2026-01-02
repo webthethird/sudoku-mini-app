@@ -5,9 +5,9 @@ import { useMiniKit } from "@coinbase/onchainkit/minikit";
 import styles from "./page.module.css";
 
 const PUZZLE = {
-  title: "(Based) Blue Lightning",
+  title: "Based Blue Lightning",
   author: "WEBthe3rd",
-  sudokupadUrl: "https://sudokupad.app/6e9vc1q86l",
+  sudokupadUrl: "https://sudokupad.app/hueetflfyn",
   rules: [
     "Place the digits 1-9 once each in every row, column, and 3x3 box.",
     "Region Sum Lines - Region boundaries split the digits on a blue line into segments of the same sum.",
