@@ -5,19 +5,23 @@ import { useMiniKit } from "@coinbase/onchainkit/minikit";
 import styles from "./page.module.css";
 
 const PUZZLE = {
-  title: "Countdown to 2026",
+  title: "(Based) Blue Lightning",
   author: "WEBthe3rd",
-  sudokupadUrl: "https://sudokupad.app/w17uwve3sq",
+  sudokupadUrl: "https://sudokupad.app/6e9vc1q86l",
   rules: [
-    "Normal sudoku rules apply.",
-    "Note: All lines have a maximum length of 4 cells.",
-    "Dynamic Fog - The grid is covered in fog. A correctly placed digit will clear any fog in that cell, and potentially in other cells as well. No guessing is required.",
-    "Sandwich Sums - Digits outside the grid indicate the sum of the digits found between the 1 and the 9 in the indicated row or column.",
-    "Anti-Kropki - Digits separated by a red ❌ are not consecutive and are not in a 1:2 ratio.",
-    "German Whisper - Digits along a green line must differ from their neighbors by at least 5.",
-    "Parity Lines - Digits along a red line must alternate between even and odd.",
-    "Renban Lines - Digits along a pink line must form a consecutive, non-repeating set in any order.",
-    "Region Sum Lines - Digits along a blue line are divided into segments with equal sums by the box boundaries.",
+    "Place the digits 1-9 once each in every row, column, and 3x3 box.",
+    "Region Sum Lines - Region boundaries split the digits on a blue line into segments of the same sum.",
+    "Kropki Dots - Digits separated by a white dot are consecutive.",
+  ],
+  notes: [
+    "This one is fairly approachable, but still tricky, especially if you're new to region sum lines. Here's a quick explaination of region sum lines:",
+    "Each time a region sum line crosses from one 3x3 box to another, it splits the digits in the two boxes into segments of the same sum.",
+    "For example, the long blue line at the top of the puzzle is split into the following six segments:",
+    "{r3c3, r3c2, r2c3}, {r1c4, r1c5, r1c6}, {r1c7, r1c8, r2c7}, {r3c6}, {c3c7, r3c8}, {r4c7}",
+    "Note that two of these segments just contain a single cell, i.e., r3c6 and r4c7. This implies two things:",
+    "1. These two cells must contain the same digit.",
+    "2. The longer segments each cannot sum to more than 9, because otherwise the two single-cell segments would need to contain digits greater than 9, which is impossible.",
+    "Note also that the minimum sum of any 3-cell segment is 6, i.e., the sum of the digits 1, 2, and 3. This implies that r3c6 and r4c7 cannot be lower than 6, so they must be from the set {6, 7, 8, 9}."
   ],
 };
 
@@ -38,7 +42,7 @@ export default function Home() {
     <div className={styles.container}>
       <div className={styles.content}>
         <header className={styles.header}>
-          <div className={styles.kicker}>Daily logic puzzle</div>
+          <div className={styles.kicker}>New puzzle most days. Follow @webthe3rd.eth to catch the next one.</div>
           <h1 className={styles.title}>{PUZZLE.title}</h1>
           <div className={styles.meta}>
             <span>By {PUZZLE.author}</span>
@@ -46,6 +50,15 @@ export default function Home() {
             <span>Hi {displayName}, enjoy the puzzle!</span>
           </div>
         </header>
+
+        <section className={styles.card}>
+          <h2 className={styles.sectionTitle}>Setter's Note</h2>
+          <ul className={styles.rules}>
+                {PUZZLE.notes.map((r) => (
+                  <li key={r}>{r}</li>
+                ))}
+              </ul>
+        </section>
 
         <section className={styles.card}>
           {showRules && (
@@ -79,9 +92,6 @@ export default function Home() {
         </section>
 
         <section className={styles.embedWrap}>
-          <div className={styles.embedHint}>
-            If the embed doesn’t load, use “Solve on SudokuPad” above.
-          </div>
           <iframe
             className={styles.iframe}
             src={PUZZLE.sudokupadUrl}
