@@ -1,0 +1,112 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.star {
+  color: #fbbf24;
+  font-size: 1.2rem;
+}
+
+.puzzleList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.puzzleCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+  width: 100%;
+}
+
+.puzzleCard:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.puzzleCard:active {
+  transform: scale(0.98);
+}
+
+.puzzleCard.active {
+  background: rgba(247, 217, 84, 0.15);
+  border-color: rgba(247, 217, 84, 0.4);
+}
+
+.puzzleInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.puzzleTitleRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.checkIcon {
+  color: #4ade80;
+  flex-shrink: 0;
+}
+
+.puzzleTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.puzzleMeta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.dot {
+  opacity: 0.5;
+}
+
+.difficulty {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.chevron {
+  color: rgba(255, 255, 255, 0.4);
+  flex-shrink: 0;
+}
+
+.empty {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 24px;
+}
