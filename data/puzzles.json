@@ -18,6 +18,19 @@
         "2. The longer segments each cannot sum to more than 9, because otherwise the two single-cell segments would need to contain digits greater than 9, which is impossible.",
         "Note also that the minimum sum of any 3-cell segment is 6, i.e., the sum of the digits 1, 2, and 3. This implies that r3c6 and r4c7 cannot be lower than 6, so they must be from the set {6, 7, 8, 9}."
       ]
+    },
+    {
+      "id": "almost-times",
+      "title": "Almost Time(s)",
+      "author": "WEBthe3rd",
+      "sudokupadUrl": "https://sudokupad.app/so2l3wtiwm",
+      "difficulty": "easy",
+      "dateAdded": "2025-01-04",
+      "notes": [
+        "I'll be sticking to posting 6x6 puzzles for a bit, since they're quicker and more approachable, which is probably better for a daily puzzle in your social feed.",
+        "This one is a follow-up to the previous puzzle, sticking with the same theme of region sum lines.",
+        "Remember, the smallest possible sum of any 3-cell segment is 6, i.e., the sum of the digits 1, 2, and 3."
+      ]
     }
   ]
 }
