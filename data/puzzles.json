@@ -1,5 +1,5 @@
 {
-  "puzzleOfTheDayId": "almost-times",
+  "puzzleOfTheDayId": "number-go-up",
   "puzzles": [
     {
       "id": "blue-lightning",
@@ -30,6 +30,17 @@
         "I'll be sticking to posting 6x6 puzzles for a bit, since they're quicker and more approachable, which is probably better for a daily puzzle in your social feed.",
         "This one is a follow-up to the previous puzzle, sticking with the same theme of region sum lines.",
         "Remember, the smallest possible sum of any 3-cell segment is 6, i.e., the sum of the digits 1, 2, and 3."
+      ]
+    },
+    {
+      "id": "number-go-up",
+      "title": "Number Go Up",
+      "author": "WEBthe3rd",
+      "sudokupadUrl": "https://sudokupad.app/xaxiwxh7ln",
+      "difficulty": "easy",
+      "dateAdded": "2025-01-05",
+      "notes": [
+        "Time to introduce some new rules! The key to solving this one is in the interaction between the German Whispers (green lines) and the Killer Cages (dashed boxes). If you get stuck, tag @webthe3rd.eth and I'll give you a hint!"
       ]
     }
   ]
