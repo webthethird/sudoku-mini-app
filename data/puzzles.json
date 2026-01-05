@@ -40,7 +40,9 @@
       "difficulty": "easy",
       "dateAdded": "2025-01-05",
       "notes": [
-        "Time to introduce some new rules! The key to solving this one is in the interaction between the German Whispers (green lines) and the Killer Cages (dashed boxes). If you get stuck, tag @webthe3rd.eth and I'll give you a hint!"
+        "Time to introduce some new rules! The key to solving this one is in the interaction between the German Whispers (green lines) and the Killer Cages (dashed boxes).",
+        "Here's a hint: in 6x6 sudoku, every row, column and 2x3 box sums to 21, which should help you place your first digit in column 4.",
+        "If you get stuck, tag @webthe3rd.eth and I'll give you another hint!"
       ]
     }
   ]
