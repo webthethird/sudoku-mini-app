@@ -1,5 +1,5 @@
 {
-  "puzzleOfTheDayId": "number-go-up",
+  "puzzleOfTheDayId": "shoot-the-gap",
   "puzzles": [
     {
       "id": "blue-lightning",
@@ -9,7 +9,7 @@
       "difficulty": "medium",
       "dateAdded": "2025-01-03",
       "notes": [
-        "This one is fairly approachable, but still tricky, especially if you're new to region sum lines. Here is a quick explaination of region sum lines:",
+        "This one is fairly tricky, especially if you're new to region sum lines. Here is a quick explaination of region sum lines:",
         "Each time a region sum line crosses from one 3x3 box to another, it splits the digits in the two boxes into segments of the same sum.",
         "For example, the long blue line at the top of the puzzle is split into the following six segments:",
         "{r3c3, r3c2, r2c3}, {r1c4, r1c5, r1c6}, {r1c7, r1c8, r2c7}, {r3c6}, {r3c7, r3c8}, {r4c7}",
@@ -42,6 +42,19 @@
       "notes": [
         "Time to introduce some new rules! The key to solving this one is in the interaction between the German Whispers (green lines) and the Killer Cages (dashed boxes).",
         "Here's a hint: in 6x6 sudoku, every row, column and 2x3 box sums to 21, which should help you place your first digit in column 4.",
+        "If you get stuck, tag @webthe3rd.eth and I'll give you another hint!"
+      ]
+    },
+    {
+      "id": "shoot-the-gap",
+      "title": "Shoot the Gap",
+      "author": "WEBthe3rd",
+      "sudokupadUrl": "https://sudokupad.app/wie4zdidj0",
+      "difficulty": "easy",
+      "dateAdded": "2025-01-06",
+      "notes": [
+        "This puzzle introduces just one extra rule: arrow sums! The digits along each arrow must sum to the value in the arrow's attached circle. Two of the arrow sums are given, so for those you just need to deduce which digits sum to the given values.",
+        "Here's a hint: the blue arrow doesn't have a sum given, but the arrow is 5 cells long, so the digit in the circle can't be less than 5. In 6x6 sudoku the maximum digit is 6, so there are only two possible sums for the blue arrow! (Though when you think about it, there's really only one possibility)",
         "If you get stuck, tag @webthe3rd.eth and I'll give you another hint!"
       ]
     }
