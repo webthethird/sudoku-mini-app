@@ -1,5 +1,5 @@
 {
-  "puzzleOfTheDayId": "icy-hot",
+  "puzzleOfTheDayId": "the-answer",
   "puzzles": [
     {
       "id": "blue-lightning",
@@ -64,11 +64,23 @@
       "author": "WEBthe3rd",
       "sudokupadUrl": "https://sudokupad.app/yege8ik7f8",
       "difficulty": "easy",
-      "dateAdded": "2025-01-07",
+      "dateAdded": "2025-01-08",
       "notes": [
         "Another new puzzle, another new rule: thermometers! The digits along each thermometer must increase in value from the bulb to the tip. For example, r3c2 must be greater than r3c1, r3c3 greater than r3c2, and so on up to r3c6.",
         "Hint: The two long thermometers in the middle each take up an entire row, so they must contain the digits 1 through 6 in order. This should help you place your first digits and complete boxes 3 and 4!",
         "If you get stuck, tag @webthe3rd.eth and I'll give you another hint!"
+      ]
+    },
+    {
+      "id": "the-answer",
+      "title": "The Answer",
+      "author": "WEBthe3rd",
+      "sudokupadUrl": "https://sudokupad.app/h1y0y835yc",
+      "difficulty": "easy",
+      "dateAdded": "2025-01-09",
+      "notes": [
+        "Today's puzzle sees the return of arrow sums, but with a twist: this time, the arrow has a two-digit sum!",
+        "Remember, the sum of the digits 1 through 6 is 21, so you can automatically deduce the sum of the arrow. If you get stuck, tag @webthe3rd.eth and I'll give you another hint!"
       ]
     }
   ]
