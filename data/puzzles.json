@@ -104,7 +104,9 @@
       "dateAdded": "2025-01-12",
       "notes": [
         "Expanding on the theme of the previous puzzle, this one features the return of the black Kropki dot, along with another type of dominoes: XV pairs, which are pairs of cells that add up to either 10 (X) or 5 (V).",
-        "Unlike the previous puzzle, not all possible Kropki dots are given, but the negative constraint is still present for XV pairs. That means that if you don't see an X or a V between two adjacent cells, then the digits must not add up to either 10 or 5."
+        "Unlike the previous puzzle, not all possible Kropki dots are given, but the negative constraint is still present for XV pairs. That means that if you don't see an X or a V between two adjacent cells, then the digits must not add up to either 10 or 5.",
+        "Here's a hint: in 6x6 sudoku, the only way to add two adjacent digits to make 10 is to use the digits 4 and 6. So wherever you see an X between two cells, you can pencil in the digits 4 and 6 as the only candidates.",
+        "If you get stuck, tag @webthe3rd.eth and I'll give you another hint!"
       ]
     }
   ]
