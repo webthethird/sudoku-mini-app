@@ -1,5 +1,5 @@
 {
-  "puzzleOfTheDayId": "forty-two-skidoo",
+  "puzzleOfTheDayId": "forty-two-skidoo-2",
   "puzzles": [
     {
       "id": "blue-lightning",
@@ -93,6 +93,18 @@
       "notes": [
         "Today's puzzle introduces a new rule! Known as Kropki dots in variant sudoku circles, these black and white dots remind me of the game Go.",
         "These dots affect pairs of adjacent cells, which are often referred to as 'dominoes'. Usually not all possible dots are given, which we would call a 'partial Kropki puzzle'. This one also features the negative constraint however, which means the absence of a dot can be just as informative as one's presence."
+      ]
+    },
+    {
+      "id": "forty-two-skidoo-2",
+      "title": "Forty Two Skidoo Part II",
+      "author": "WEBthe3rd",
+      "sudokupadUrl": "https://sudokupad.app/ijcap1a929",
+      "difficulty": "medium",
+      "dateAdded": "2025-01-12",
+      "notes": [
+        "Expanding on the theme of the previous puzzle, this one features the return of the black Kropki dot, along with another type of dominoes: XV pairs, which are pairs of cells that add up to either 10 (X) or 5 (V).",
+        "Unlike the previous puzzle, not all possible Kropki dots are given, but the negative constraint is still present for XV pairs. That means that if you don't see an X or a V between two adjacent cells, then the digits must not add up to either 10 or 5."
       ]
     }
   ]
