@@ -1,5 +1,5 @@
 {
-  "puzzleOfTheDayId": "the-answer",
+  "puzzleOfTheDayId": "forty-two-skidoo",
   "puzzles": [
     {
       "id": "blue-lightning",
@@ -81,6 +81,18 @@
       "notes": [
         "Today's puzzle sees the return of arrow sums, but with a twist: this time, the arrow has a two-digit sum!",
         "Remember, the sum of the digits 1 through 6 is 21, so you can automatically deduce the sum of the arrow. If you get stuck, tag @webthe3rd.eth and I'll give you another hint!"
+      ]
+    },
+    {
+      "id": "forty-two-skidoo",
+      "title": "Forty Two Skidoo",
+      "author": "WEBthe3rd",
+      "sudokupadUrl": "https://sudokupad.app/21igx48856",
+      "difficulty": "medium",
+      "dateAdded": "2025-01-11",
+      "notes": [
+        "Today's puzzle introduces a new rule! Known as Kropki dots in variant sudoku circles, these black and white dots remind me of the game Go.",
+        "These dots affect pairs of adjacent cells, which are often referred to as 'dominoes'. Usually not all possible dots are given, which we would call a 'partial Kropki puzzle'. This one also features the negative constraint however, which means the absence of a dot can be just as informative as one's presence."
       ]
     }
   ]
