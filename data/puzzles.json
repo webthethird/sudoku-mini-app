@@ -1,5 +1,5 @@
 {
-  "puzzleOfTheDayId": "forty-two-skidoo-2",
+  "puzzleOfTheDayId": "mini-maxi",
   "puzzles": [
     {
       "id": "blue-lightning",
@@ -107,6 +107,17 @@
         "Unlike the previous puzzle, not all possible Kropki dots are given, but the negative constraint is still present for XV pairs. That means that if you don't see an X or a V between two adjacent cells, then the digits must not add up to either 10 or 5.",
         "Here's a hint: in 6x6 sudoku, the only way to add two adjacent digits to make 10 is to use the digits 4 and 6. So wherever you see an X between two cells, you can pencil in the digits 4 and 6 as the only candidates.",
         "If you get stuck, tag @webthe3rd.eth and I'll give you another hint!"
+      ]
+    },
+    {
+      "id": "mini-maxi",
+      "title": "Mini Maxi",
+      "author": "WEBthe3rd",
+      "sudokupadUrl": "https://sudokupad.app/1s5w8d9eny",
+      "difficulty": "easy",
+      "dateAdded": "2025-01-13",
+      "notes": [
+        "Here's one for all the Base maximalists out there! Today's new rule is minimums and maximums, so wherever you see a > or < pointing from one cell to another, think of them as greater than or less than signs for the digits in the two cells."
       ]
     }
   ]
