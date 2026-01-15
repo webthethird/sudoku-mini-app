@@ -1,5 +1,5 @@
 {
-  "puzzleOfTheDayId": "mini-maxi",
+  "puzzleOfTheDayId": "check-it-out",
   "puzzles": [
     {
       "id": "blue-lightning",
@@ -118,6 +118,18 @@
       "dateAdded": "2025-01-13",
       "notes": [
         "Here's one for all the Base maximalists out there! Today's new rule is minimums and maximums, so wherever you see a > or < pointing from one cell to another, think of them as greater than or less than signs for the digits in the two cells."
+      ]
+    },
+    {
+      "id": "check-it-out",
+      "title": "Check It Out",
+      "author": "WEBthe3rd",
+      "sudokupadUrl": "https://sudokupad.app/ul33j48nlg",
+      "difficulty": "easy",
+      "dateAdded": "2025-01-15",
+      "notes": [
+        "Today's puzzle features the return of German Whispers (green lines) and Parity Lines (red lines), which we last saw in Number Go Up.",
+        "If you get stuck, tag @webthe3rd.eth and I'll give you a hint!"
       ]
     }
   ]
